@@ -20,3 +20,8 @@ This repository contains Machine learning project on various differnt type of Da
 * [House Price Prection](#house-price-prediction)
 
 ### [House Price Prediction](./HousePricePrediction)
+![image.jpg](./images/house-price-pred.jpg)
+
+* This Dataset contains data of house prices with features of the houses.
+* We have done EDA and found out the features affecting house prices.
+* Applied linear regression models and compared the performance of models.
