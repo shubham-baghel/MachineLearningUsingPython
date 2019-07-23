@@ -1,3 +1,3 @@
 # Machine Learning Using Python
-![image.jpeg](/images/machineLearning3.png)
+![image.jpeg](/images/machinelearningposter.jpeg)
 
