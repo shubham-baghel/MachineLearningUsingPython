@@ -17,8 +17,8 @@ We will predict house price based on various features related to house selling.W
 ## Project Analysis
 | Description | Analysis |
 | --- | --- |
-| `house_price.head` | ![image.png](images/Startup_head.PNG)
-| `house_price.columns` | ![image.png](images/Startup_columns.PNG)
+| `house_price.head` | ![image.png](images/hp_head.JPG)
+| `house_price.columns` | ![image.png](images/hp_columns.JPG)
 
 ## Insights from Data
 | Description | Plot |
