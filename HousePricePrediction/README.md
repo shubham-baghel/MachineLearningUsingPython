@@ -1,41 +1,35 @@
 # House Price Prediction
 
 ## INTRODUCTION
-As India is growing in Technology and other small Industry. We will do analysis of startups started between year(2015-2017).
-We will analayze different attributes as city, industry, funding type and amount of funding.
+We will predict house price based on various features related to house selling.We will try to find out relations between dependant and independant variables using EDA. After EDA we will apply machine learning models to find predicted price for house and will compare multiple models to for accuracy.
 
 ## DATA
 | Column Name | Description |
 | --- | --- |
-| `Date` | Opening Date|
-| `IndustryVertical` | Catagorical / Industry Vertical Name|
-|`SubVertical`| Catagorical / Industry Sub-Vertical Name|
-|`City`| City Name |
-|`InvestorsName`| Investors Name |
-|`InvestmentType`|  Investment Type|
-|`AmountInUSD`| Numerical Value |
+| `Date` | Date of the home sale|
+| `Price` | Price of each home sold|
+|`Bedrooms`| Number of bedrooms |
+|`Bathrooms`| Number of bathrooms, where .5 accounts for a room with a toilet but no shower |
+|`Sqft_Living`| Square footage of the apartments interior living space |
+|`Sqft_Lot`|  Square footage of the land space|
+|`Floors`| Number of floors |
 
 ## Project Analysis
 | Description | Analysis |
 | --- | --- |
-| `startup_funding.head` | ![image.png](images/Startup_head.PNG)
-| `Columns` | ![image.png](images/Startup_columns.PNG)
-| `Missing Values` | ![image.png](images/Startup_isnull.PNG)
+| `house_price.head` | ![image.png](images/Startup_head.PNG)
+| `house_price.columns` | ![image.png](images/Startup_columns.PNG)
 
 ## Insights from Data
 | Description | Plot |
 | --- | --- |
-|`Yearwise Startups Count`| ![image.png](images/Startup_plot_1.PNG)|
-|`Top Industry Vertials`| ![image.png](images/Startup_plot_2.PNG)|
-|`Top Cities`| ![image.png](images/Startup_plot_2.PNG)|
-|`Popular Funding types`| ![image.png](images/Startup_plot_2.PNG)|
-|`Funding Amount`| ![image.png](images/Startup_plot_2.PNG)|
+|`Floors Vs Price`| ![image.png](images/floorsvsPrice.JPG)|
+|`Grade Vs Price`| ![image.png](images/GradeVsPrice.JPG)|
+|`BedRooms Vs Price`| ![image.png](images/bedroom_vs_price.JPG)|
+|`Final Model Evaluation`| ![image.png](images/final_evaluation.JPG)|
 
 ## Jupyter NoteBooks
-* [Jupyter Notebook Startups In India](./EDA-StartupFunding.ipynb)
+* [Jupyter Notebook House Price Predcition](./HousePricePrdiction.ipynb)
 
 ## Conclusion
-* In 2017, number of starup reduced compare to 2016 and 2017
-* Most startup are in Consumer Internet and Tecnology domain.
-* Bangalore, Mumbai and Delhi NCR are three main cities for any startup.
-* Most of the startups get seed funding.
+When we look at the evaluation table, 2nd degree polynomial (all features, no preprocessing) is the best. However, I have doubts about its reliability. I would prefer the polynomial ridge regression (alpha=50000, degree=2, all features) but other models might be useful depending to the situation too.
