@@ -18,6 +18,7 @@ This repository contains Machine learning project on various differnt type of Da
 
 ## Table of Content
 * [House Price Prection](#house-price-prediction)
+* [Credit Card Fraudlent](#credit-card-fraudlent)
 
 ### [House Price Prediction](./HousePricePrediction)
 ![image.jpg](./images/house-price-pred.jpg)
