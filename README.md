@@ -25,3 +25,11 @@ This repository contains Machine learning project on various differnt type of Da
 * This Dataset contains data of house prices with features of the houses.
 * We have done EDA and found out the features affecting house prices.
 * Applied linear regression models and compared the performance of models.
+
+### [Credit Card Fraudlent](./Credit-Card-Fraudlent)
+![image.jpg](./images/Credit-card-fraud.jpg)
+
+* The datasets contains transactions made by credit cards in September 2013 by european cardholders.
+* The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
+* Applied Isolation Forest, Local Outlier and Support Vector Classifier to detect fraudlent transaction.
+
